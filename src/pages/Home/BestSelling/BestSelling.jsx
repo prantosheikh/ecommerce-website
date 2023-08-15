@@ -37,7 +37,7 @@ const BestSelling = () => {
   return (
     <div className="py-10 mt-[80px]">
        <h1 className="text-4xl text-center my-2 font-bold relative group cursor-pointer mb-6 hover:text-yellow-600 transition duration-300 transition-delay-500 ease-in-out">
-          Table Wood Pine
+       Best Seller 
           <span className="absolute -bottom-3 left-[480px] w-1/4 h-0.5 bg-yellow-600 transform origin-left transition-transform duration-300 ease-in-out group-hover:scale-x-2"></span>
         </h1>
       <div  data-aos="zoom-out-up" className="flex justify-center items-center mt-20">
@@ -72,9 +72,9 @@ const BestSelling = () => {
                 />
                 {hovered === card._id && (
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-4 justify-center transition duration-300">
-                    <button  className="btn btn-sm btn-circle h-5"><HiPlus className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
-                    <button className="btn  btn-sm btn-circle"><HiOutlineHeart className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
-                   <button className="btn btn-sm btn-circle "> <HiOutlineBriefcase className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
+                    <button><HiPlus className="text-3xl text-orange-500 hover:text-yellow-500 transition duration-300" /></button>
+                    <button><HiOutlineHeart className="text-3xl text-orange-500 hover:text-yellow-500 transition duration-300" /></button>
+                   <button> <HiOutlineBriefcase className="text-3xl text-orange-500 hover:text-yellow-500 transition duration-300" /></button>
                   </div>
                 )}
                 <div className="p-4 text-center">
