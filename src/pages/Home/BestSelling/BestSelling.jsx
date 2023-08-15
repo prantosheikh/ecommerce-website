@@ -72,9 +72,9 @@ const BestSelling = () => {
                 />
                 {hovered === card._id && (
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-4 justify-center transition duration-300">
-                    <button  className="btn btn-sm rounded-full h-5"><HiPlus className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
+                    <button  className="btn btn-sm btn-circle h-5"><HiPlus className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
                     <button className="btn  btn-sm btn-circle"><HiOutlineHeart className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
-                   <button className="btn btn-sm rounded-full "> <HiOutlineBriefcase className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
+                   <button className="btn btn-sm btn-circle "> <HiOutlineBriefcase className="text-3xl hover:text-yellow-500 transition duration-300" /></button>
                   </div>
                 )}
                 <div className="p-4 text-center">
